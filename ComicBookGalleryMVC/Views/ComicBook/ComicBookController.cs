@@ -9,7 +9,7 @@ namespace ComicBookGalleryMVC.Controllers
         {
             var comicBook = new Models.ComicBook()
             {
-                SeriesTitle = "The Amazing Iron Man",
+                SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
                 Artist = new Models.Artist[]
@@ -22,20 +22,7 @@ namespace ComicBookGalleryMVC.Controllers
                 }
             };
 
-            //ViewBag.SeriesTitle = "The Amazing Iron Man";
-
-            //ViewBag.IssueNumber = 877;
-
-            //ViewBag.Description = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>";
-
-            //ViewBag.Artists = new string[]
-            // {
-            //    "Script: Dan Slott",
-            //    "Pencils: Humberto Ramos",
-            //    "Inks: Victor Olazaba",
-            //    "Colors: Edgar Delgado",
-            //    "Letters: Chris Eliopoulos"
-            // };
+            
 
 
 
