@@ -13,12 +13,14 @@
   <ItemGroup>
     <None Remove="Views\ComicBooks\" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ComicBook\" />
     <Folder Include="wwwroot\Images\" />
     <Folder Include="wwwroot\Fonts\" />
     <Folder Include="wwwroot\Scripts\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\css\bootstrap.min.css" />
